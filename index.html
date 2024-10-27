@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title ><h1 id="title">surver Form</h1></title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scal=1.0">
+  </head>
+  <body>
+    <figure id="image">
+    
+    </figure>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form  id="survey-form" method="post" action='https://survey-form.freecodecamp.org'>
+      <fieldset>
+        <label id="name-label" for="name"> Name: <input id="name"  type="text" required placeholder="Enter Your Name"/></label>
+        
+        <label id="email-label" for="email"> Email: <input id="email" name="email" type="email" required  placeholder="Enter Your Email:"/></label>
+        <label id="number-label" for="number">age:<input id="number"  type="number" placeholder="enter your age" min="10" max="120"  required/>  </label>
+      </fieldset>
+      <fieldset>
+        <label>favourite thing about HTML</lable>
+          <select id="dropdown">
+          <option>Web Development</option>
+          <option> Creativity Unleashed</option>
+          <option>Structured Markup</option>
+          <option>Visual Design</option>
+          <option>Immediate Visual Impac</option>
+          <option>,Accessibility,</option>
+          </select>
+          </fieldset>
+          <fieldset>
+        <label>Do you like Coding</label>
+        <label><input type="radio" value ="yes" id="radio-button" name="acount">yes</label>
+        <label><input type="radio" value ="no" id="radio-button" name="acount">no</label>
+        <label><input type="checkbox" value ="CODING" name="account">I love CODING</label>
+        <label><input type="checkbox" value ="designing" name="account" >i just like wed designing</label>
+      </fieldset>
+</body>
+<footer>
+ <fieldset>
+    <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+ <label for="terms-and-conditions">
+        <input id="terms-and-conditions" value="conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+  </footer>
